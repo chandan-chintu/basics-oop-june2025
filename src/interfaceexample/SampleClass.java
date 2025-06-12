@@ -12,7 +12,6 @@ public class SampleClass implements SampleInterface, SampleInterface2{
         System.out.println("sample2 inside SampleClass");
         System.out.println("mno value is : "+SampleInterface.mno);
     }
-
     @Override
     public void sample3() {
         System.out.println("sample3 inside SampleClass");
